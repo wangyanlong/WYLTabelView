@@ -13,6 +13,9 @@
 		18E1D9CD1F49340A009531FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1D9CB1F49340A009531FE /* Main.storyboard */; };
 		18E1D9CF1F49340A009531FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E1D9CE1F49340A009531FE /* Assets.xcassets */; };
 		18E1D9D21F49340A009531FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1D9D01F49340A009531FE /* LaunchScreen.storyboard */; };
+		18E1D9DC1F4934A1009531FE /* WYLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9DB1F4934A1009531FE /* WYLTableView.m */; };
+		18E1D9DF1F4938BF009531FE /* RowInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9DE1F4938BF009531FE /* RowInfoModel.m */; };
+		18E1D9E21F4938D8009531FE /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9E11F4938D8009531FE /* MyCustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		18E1D9CE1F49340A009531FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E1D9D11F49340A009531FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E1D9D31F49340A009531FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E1D9DA1F4934A1009531FE /* WYLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLTableView.h; sourceTree = "<group>"; };
+		18E1D9DB1F4934A1009531FE /* WYLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLTableView.m; sourceTree = "<group>"; };
+		18E1D9DD1F4938BF009531FE /* RowInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowInfoModel.h; sourceTree = "<group>"; };
+		18E1D9DE1F4938BF009531FE /* RowInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowInfoModel.m; sourceTree = "<group>"; };
+		18E1D9E01F4938D8009531FE /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		18E1D9E11F4938D8009531FE /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 		18E1D9D91F493420009531FE /* WYLTableView */ = {
 			isa = PBXGroup;
 			children = (
+				18E1D9DD1F4938BF009531FE /* RowInfoModel.h */,
+				18E1D9DE1F4938BF009531FE /* RowInfoModel.m */,
+				18E1D9DA1F4934A1009531FE /* WYLTableView.h */,
+				18E1D9DB1F4934A1009531FE /* WYLTableView.m */,
+				18E1D9E01F4938D8009531FE /* MyCustomTableViewCell.h */,
+				18E1D9E11F4938D8009531FE /* MyCustomTableViewCell.m */,
 			);
 			path = WYLTableView;
 			sourceTree = "<group>";
@@ -159,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E1D9DF1F4938BF009531FE /* RowInfoModel.m in Sources */,
+				18E1D9DC1F4934A1009531FE /* WYLTableView.m in Sources */,
 				18E1D9CA1F49340A009531FE /* ViewController.m in Sources */,
 				18E1D9C71F49340A009531FE /* AppDelegate.m in Sources */,
+				18E1D9E21F4938D8009531FE /* MyCustomTableViewCell.m in Sources */,
 				18E1D9C41F49340A009531FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
